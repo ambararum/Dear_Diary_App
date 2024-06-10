@@ -41,6 +41,17 @@ class HomeScreen extends StatelessWidget {
                       ),
                       title: Text('Blue Day'),
                       subtitle: Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+                      onTap: () {
+                        Navigator.pushNamed(
+                          context,
+                          '/journal_detail',
+                          arguments: {
+                            'title': 'Blue Day',
+                            'mood': '😀',
+                            'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                          },
+                        );
+                      },
                     ),
                   ),
                   Card(
@@ -50,6 +61,17 @@ class HomeScreen extends StatelessWidget {
                       ),
                       title: Text('Blue Day'),
                       subtitle: Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
+                      onTap: () {
+                        Navigator.pushNamed(
+                          context,
+                          '/journal_detail',
+                          arguments: {
+                            'title': 'Blue Day',
+                            'mood': '😃',
+                            'content': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                          },
+                        );
+                      },
                     ),
                   ),
                 ],

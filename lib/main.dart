@@ -1,12 +1,16 @@
 import 'package:dear_diary_app/calendar.dart';
 import 'package:dear_diary_app/create_journal.dart';
+import 'package:dear_diary_app/edit_profil.dart';
 import 'package:dear_diary_app/home.dart';
+import 'package:dear_diary_app/language.dart';
 import 'package:dear_diary_app/my_journals.dart';
+import 'package:dear_diary_app/privacy_policy.dart';
 import 'package:dear_diary_app/profil.dart';
 import 'package:dear_diary_app/sign_in.dart';
 import 'package:dear_diary_app/sign_up.dart';
 import 'package:flutter/material.dart';
 import 'package:dear_diary_app/journal_detail.dart';
+
 
 void main() {
   runApp(DearDiaryApp());
@@ -26,6 +30,9 @@ class DearDiaryApp extends StatelessWidget {
         '/sign_up': (context) => SignUpScreen(),
         '/home': (context) => HomeScreen(),
         '/profile': (context) => ProfileScreen(),
+        '/editProfile': (context) => EditProfileScreen(),
+        '/language': (context) => LanguageScreen(),
+        '/privacyPolicy': (context) => PrivacyPolicyScreen(),
         '/my_journals': (context) => MyJournalsScreen(),
         '/create_journal': (context) => CreateJournalScreen(),
         '/calendar': (context) => CalendarScreen(),

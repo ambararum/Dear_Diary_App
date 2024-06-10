@@ -7,8 +7,61 @@ class ProfileScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Profile'),
       ),
-      body: Center(
-        child: Text('Profile Page - Coming Soon!'),
+      body: ListView(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              children: [
+                CircleAvatar(
+                  radius: 50,
+                  backgroundImage: NetworkImage('https://example.com/profile-pic.jpg'),
+                ),
+                SizedBox(height: 10),
+                Text(
+                  'Dahayu Anindya',
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                ),
+                SizedBox(height: 5),
+                Text(
+                  'dahayu@example.com | 012345678912',
+                  style: TextStyle(color: Colors.grey),
+                ),
+                SizedBox(height: 20),
+                ListTile(
+                  leading: Icon(Icons.edit),
+                  title: Text('Edit Profile Information'),
+                  onTap: () {
+                    Navigator.pushNamed(context, '/editProfile');
+                  },
+                ),
+                ListTile(
+                  leading: Icon(Icons.language),
+                  title: Text('Language'),
+                  onTap: () {
+                    Navigator.pushNamed(context, '/language');
+                  },
+                ),
+                ListTile(
+                  leading: Icon(Icons.brightness_6),
+                  title: Text('Theme'),
+                  trailing: Text('Light mode'),
+                ),
+                ListTile(
+                  leading: Icon(Icons.lock),
+                  title: Text('Privacy Policy'),
+                  onTap: () {
+                    Navigator.pushNamed(context, '/privacyPolicy');
+                  },
+                ),
+                ListTile(
+                  leading: Icon(Icons.logout),
+                  title: Text('Log Out'),
+                ),
+              ],
+            ),
+          ),
+        ],
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
