@@ -4,7 +4,11 @@ A new Flutter project. "Dear Diary" is a loyal companion for teens and adults wh
 
 ## Dear Diary Interface
 ### Sign-in and Sign-up
-<img width="945" height="2048" alt="1" src="https://github.com/user-attachments/assets/fe1b09a7-45db-43c9-a363-ad7553fa0ae2" /> <img width="945" height="2048" alt="2" src="https://github.com/user-attachments/assets/e1de3173-0e67-4ae2-9fcf-dd3eb1eb53de" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fe1b09a7-45db-43c9-a363-ad7553fa0ae2" alt="1" width="400" />
+  <img src="https://github.com/user-attachments/assets/e1de3173-0e67-4ae2-9fcf-dd3eb1eb53de" alt="2" width="400" />
+</p>
+
 
 
 
