@@ -42,7 +42,7 @@ Select emojis to reflect their current mood and track it over time
 Users can update their profile picture, username, email, language, and phone number.
 <p align="left">
   <img src="https://github.com/user-attachments/assets/adc049b1-4fde-4a32-85b5-1e2a2d78e442" alt="8" width="240" style="border: 1px solid #ccc; margin-right: 10px;" />
-  <img src=""https://github.com/user-attachments/assets/ddc2944e-fd29-452e-89b4-7a76e63bb651"  alt="9" width="240" style="border: 1px solid #ccc;" />
+  <img src="https://github.com/user-attachments/assets/ddc2944e-fd29-452e-89b4-7a76e63bb651"  alt="9" width="240" style="border: 1px solid #ccc;" />
   <img src="https://github.com/user-attachments/assets/0a282fe1-e47e-4025-bf62-c01510fb524d" alt="10" width="240" style="border: 1px solid #ccc;" />
   <img src="https://github.com/user-attachments/assets/675631fa-6c84-44c4-b08b-3fafb0b11630" alt="11" width="240" style="border: 1px solid #ccc;" />
 </p>
