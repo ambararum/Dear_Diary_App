@@ -1,16 +1,11 @@
 # dear_diary_app
 
-A new Flutter project.
+A new Flutter project. "Dear Diary" is a loyal companion for teens and adults who want to celebrate life’s meaningful moments, reflect on their thoughts, and express their feelings through a digital journaling experience.
 
-## Getting Started
+## Dear Diary Interface
+### Sign-in and Sign-up
+<img width="945" height="2048" alt="1" src="https://github.com/user-attachments/assets/fe1b09a7-45db-43c9-a363-ad7553fa0ae2" /> <img width="945" height="2048" alt="2" src="https://github.com/user-attachments/assets/e1de3173-0e67-4ae2-9fcf-dd3eb1eb53de" />
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
